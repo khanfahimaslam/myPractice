@@ -1,0 +1,43 @@
+.card-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image{
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    transition: 0.4s;
+}
+.image:hover{
+    box-shadow: blueviolet 2px 2px 3px, blueviolet -2px -2px 3px;
+}
+.card{
+    background-color: aquamarine;
+    margin:10px;
+    width: 300px;
+    box-shadow: blueviolet 3px 3px 5px, blueviolet -3px -3px 5px;
+    transition: 0.5s;
+
+    }
+    .card:hover{
+        box-shadow:none;
+    }
+/* .card{
+    background-color: antiquewhite;
+    box-shadow: aquamarine 3px 3px 5px;
+    margin:5px;
+    width: 300px;
+    height: 450px;
+    transition: 0.5s;
+}
+.img{
+    margin-top: 25px;
+}
+.card:hover{
+    box-shadow: none;
+}
+.img:hover{
+    box-shadow: seagreen 2px 2px 5px 5px;
+} */

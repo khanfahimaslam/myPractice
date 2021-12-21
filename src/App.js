@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
+// import {ColorChange} from './Components/ColorChange';
+// import {Home} from './Components/Home'
+// import UseRefProg from './Components/Hooks/UseRefProg';
+// import { ClassTimer } from './Components/Hooks/ClassTimer';
+// import FunctionalCompo from './Components/Hooks/FunctionalCompo';
 
+import Landing from './myredux/R-State/Landing'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Landing/>
+
+
+
+      {/* <Home/> */}
+      {/* <ColorChange/> */}
+      {/* <UseRefProg/>
+      <ClassTimer/>
+      <FunctionalCompo/>
+     */}
     </div>
   );
 }
